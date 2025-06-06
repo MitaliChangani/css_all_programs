@@ -1,0 +1,24 @@
+/* div {
+    height: 100px;
+    width: 100px;
+    background-color: burlywood;
+    border: 2px solid black;
+    display: inline-block;
+}
+#box1 {
+    position: relative;
+    top: 90px;
+} */
+
+div{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 5%;
+    background-image: url(nature_image.jpg);
+    background-size: cover;
+    color: chartreuse;
+    right: 0;
+    top: 20px;
+    position: fixed;
+}

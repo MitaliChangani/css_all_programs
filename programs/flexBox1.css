@@ -1,0 +1,67 @@
+.navbar {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-evenly;
+    /* equallt space between all the felx element in flex box according to a main axis we can use space -evenly in justify content */
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+li {
+    list-style-type: none;
+    display: inline;
+    
+}
+
+#box1{
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#box2{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    justify-content: center;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    font-size: 17px;
+}
+
+@media (max-width:300px){
+    div{
+        background-color: green;
+        
+    }
+}
+
+@media (min-width:300px ) and (max-width:400px){
+    div{
+        background-color: pink;
+        
+    }
+}
+
+@media (min-width:400px ) and (max-width:600px){
+    div{
+        background-color: red;
+       
+    }
+}
+@media (min-width:600px){
+    div{
+        background-color: blue;
+        font-size: 25px;
+        
+    }
+}

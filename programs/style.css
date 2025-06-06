@@ -1,0 +1,32 @@
+div {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgba(255, 0, 0, 1);
+
+}
+#main {
+    font-size: 25px;
+    color: orange;
+    text-decoration: none;
+    margin-left: 0px;
+}
+button {
+    color: white;
+    background-color: orange;
+}
+nav{
+    
+    background-color: black;
+    color: white;
+    height: 60px;
+    border: 7px solid white;
+}
+a {
+    color: white;
+    text-decoration: none;
+    margin-right: 200px;
+}
+body{
+    background-color: aquamarine;
+}

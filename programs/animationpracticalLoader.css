@@ -1,0 +1,22 @@
+div {
+    height: 100px;
+    width: 100px;
+    /* border: 2px solid black; */
+    border-radius: 50%;
+    border: 20px solid #735D78;
+    border-left: 20px solid #B392AC;
+    animation-name: transformation;
+    animation-duration: 1s;
+    animation-timing-function: steps(20);
+    animation-delay: 0.25s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes transformation{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
